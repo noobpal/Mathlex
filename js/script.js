@@ -1,4 +1,3 @@
-
 // toggle class active
 const navbNar = document.querySelector(".navbar-nav");
 
