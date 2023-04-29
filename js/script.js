@@ -1,15 +1,4 @@
-import { Text, View } from "react-native";
-import React, { Component } from "react";
 
-export default class script extends Component {
-  render() {
-    return (
-      <View>
-        <Text>script</Text>
-      </View>
-    );
-  }
-}
 // toggle class active
 const navbNar = document.querySelector(".navbar-nav");
 
