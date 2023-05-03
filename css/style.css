@@ -262,6 +262,10 @@ footer .footer-extra a {
   margin: 0 10px;
 }
 
+footer p {
+  padding :0;
+  font-size : 0.8rem;
+}
 #insta:hover,
 #gmail:hover,
 #wa:hover {
