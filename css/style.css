@@ -350,3 +350,54 @@ footer p {
   padding: 8rem 5%;
   width: 100%;
 }
+
+/* konten exc */
+#excercise {
+  background-color: #2b9cda;
+  min-height: 100vh;
+}
+
+.exc1 .img {
+  background-color: #f8f8f8;
+  align-items: center;
+  margin-top: 25%;
+  margin-left: 4%;
+  margin-right: 4%;
+  padding: 80px 7%;
+  display: inline-block;
+  justify-content: center;
+  border-radius: 5rem;
+}
+
+.exc1 .img img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  align-items: center;
+  justify-content: center;
+}
+
+.exc1 .img button {
+  display: block;
+  background-color: rgba(43, 156, 218, 0.5);
+  block-size: 5rem;
+  margin-top: 2rem;
+  width: 80%;
+  border-radius: 8rem;
+  text-align: start;
+  padding-left: 4rem;
+  font-size: 3rem;
+  color: #f8f8f8;
+}
+
+.exc1 .img #answer {
+  background-color: #2b9cda;
+  align-items: center;
+  color: #fff;
+  max-width: 50%;
+  margin-top: 1rem;
+  margin-left: 15%;
+  font-size: 3rem;
+  text-align: center;
+  border-radius: 8rem;
+}
