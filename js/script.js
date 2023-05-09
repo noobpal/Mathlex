@@ -13,3 +13,15 @@ document.addEventListener("click", function (e) {
     navbNar.classList.remove("active");
   }
 });
+// jawaban
+const betul = document.getElementById("a");
+const salah = document.getElementById("b", "c", "D");
+const answer = document.getElementById("answer");
+
+betul.addEventListener("click", function () {
+  answer.textContent = "Jawaban anda benar";
+});
+
+salah.addEventListener("click", function () {
+  answer.textContent = "Jawaban anda salah";
+});
